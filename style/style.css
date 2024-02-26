@@ -1,0 +1,268 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#nav-bar{
+    background-color: whitesmoke;
+    width: 100%;
+height: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 30px;
+box-shadow: 1px 1px 8px  gray;
+
+}
+#nav-bar a{
+text-decoration: none;
+color: black;
+letter-spacing: 2px;
+padding: 0 5px;
+}
+#nav-bar .br{
+    font-weight: bold;
+    padding: 0 5px;
+}
+#container{
+    width: 75%;
+    margin: 0 auto;
+   
+   
+}
+#btn{
+   
+    /* height: 100vh; */
+}
+#BR-background-image{
+    background-image: url(../images/architect.jpg);
+max-width: 100%;
+min-height:500px ;
+
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#BR-background-image:first-child{
+    color: white;
+font-size: 20px;
+
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+.BR{
+    background-color: rgba(0,0, 0, 0.8);
+    padding: 8px;
+ margin-right: 10px;
+font-weight: 540;
+}
+#project{
+height: 80px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+color: rgb(62, 61, 61);
+
+}
+#project-background-imabes{
+    height: 289px;
+    /* display: flex; */
+    /* background-color: brown; */
+}
+#part-1{
+    margin-bottom: 8px;
+}
+#part-1,#part-2{
+    display: flex;
+    justify-content: space-between;
+}
+#img1{
+    background-image: url(../images/house5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 140px;
+}
+#img2{
+    background-image: url(../images/house2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 140px;
+}
+#img3{
+    background-image: url(../images/house3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 140px;
+}
+#img4{
+    background-image: url(../images/house4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 140px;
+}
+#img5{
+    background-image: url(../images/house2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 140px;
+}
+#img6{
+    background-image: url(../images/house5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 140px;
+}
+#img7{
+    background-image: url(../images/house4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 140px;
+}
+#img8{
+    background-image: url(../images/house3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 140px;
+}
+.house-name{
+    width: 45%;
+    font-size: 10px;
+    padding: 7px;
+    color: white;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+/* background-color: rgba(0,0, 0, 0.8); */
+background-color: black;
+}
+#about{
+height: 140px;
+/* background-color: brown; */
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+#about :first-child {
+font-size: 15px;
+padding-top: px;
+}
+.text{
+    color: rgb(78, 78, 78);
+
+    font-size: 11.5px;
+    text-align: justify;
+}
+
+#olds-man{
+  height: 320px;
+display: flex;
+justify-content: space-between;
+/* background-color: blueviolet; */
+}
+#johan-Deo{
+max-width: 24%;
+height: 290px;
+/* background-color: rgb(197, 218, 218); */
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+#johan-Deo img{
+    width: 100%;
+    opacity: 0.9;
+
+}
+.Ceo-founder{
+color: rgb(159, 157, 157);
+}
+.name{
+    font-size: 18px;
+    font-weight: 300;
+color: rgb(87, 86, 86);
+
+}
+.about-text{
+    font-size: 12px;
+    color: rgb(78, 78, 78);
+
+
+}
+#johan-Deo :last-child{
+    text-align: center;
+    background-color: rgb(216, 212, 212);
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+#contact{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+/* background-color: aqua; */
+height: 340px;
+}
+ #contact p{
+    padding: 9px 0;
+}
+#contact form{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#contact form input{
+    padding: 10px;
+    margin: 7px 0;
+    border-color: rgb(228, 227, 227);
+    outline: none;
+    /* border: none; */
+
+}
+.button{
+    margin-top: 10px;
+    width: 15%;
+    display: block;
+    /* padding: 10px; */
+    background-color: black;
+    color: aliceblue;
+    text-transform: uppercase;
+border: none;
+outline: none;
+}
+#location-picture{
+    background-image: url(../images/map.jpg);
+    height: 500px;
+
+}
+
+#footer{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+    font-size: 15px;
+    background-color: black;
+    color: white;
+ height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
